@@ -1,5 +1,5 @@
 ﻿@model ApplicantDTO
-<form asp-action="create" id="addForm" style="display:none">
+<form asp-action="create" id="addForm" class="form-control mb-3" style="display:none;background:rgb(154 155 164 / 34%);">
     <div class="form-group">
         <label>Applicant Name: </label>
         <input asp-for="Name" class="form-control" />
@@ -41,6 +41,9 @@
         <span asp-validation-for="Hired" class="error"></span>
 
     </div>
-    <button type="submit" class="btn btn-primary">Create</button>
-    <div class="btn btn-danger" onclick="document.getElementById('addForm').style.display='none'">Cnacel</div>
+    <div class="m-3 p-3">
+
+    <button type="submit" class="btn btn-primary mx-1">Create</button>
+    <div class="btn btn-danger " onclick="document.getElementById('addForm').style.display='none'">Cnacel</div>
+    </div>
 </form>
