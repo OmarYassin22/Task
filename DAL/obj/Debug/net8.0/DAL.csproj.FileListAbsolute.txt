@@ -1,0 +1,15 @@
+D:\projects\Task\Task\DAL\bin\Debug\net8.0\DAL.deps.json
+D:\projects\Task\Task\DAL\bin\Debug\net8.0\DAL.dll
+D:\projects\Task\Task\DAL\bin\Debug\net8.0\DAL.pdb
+D:\projects\Task\Task\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+D:\projects\Task\Task\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\Task\Task\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+D:\projects\Task\Task\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+D:\projects\Task\Task\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+D:\projects\Task\Task\DAL\obj\Debug\net8.0\DAL.sourcelink.json
+D:\projects\Task\Task\DAL\obj\Debug\net8.0\DAL.dll
+D:\projects\Task\Task\DAL\obj\Debug\net8.0\refint\DAL.dll
+D:\projects\Task\Task\DAL\obj\Debug\net8.0\DAL.pdb
+D:\projects\Task\Task\DAL\obj\Debug\net8.0\ref\DAL.dll
+D:\projects\Task\Task\DAL\bin\Debug\net8.0\DAL.runtimeconfig.json
+D:\projects\Task\Task\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
