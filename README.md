@@ -39,9 +39,15 @@ https://github.com/OmarYassin22/Task.git
 
 ### Using the Application
 
-1. Open your web browser and navigate to `https://localhost:5001`.
+1. Open your web browser and navigate to  `https://localhost:7152` or `http://localhost:5054)`.
 2. You will see the home page of the Applicant Management System.
 3. Use the navigation menu to add, view, update, or delete applicants.
+
+### Use Postman in Test
+1. import `Postmant collection.json` from the API app
+2. Modify baseUrl variable in `Applicant Management System`
+3. Select API as the startup project
+4. Then Start Test
 
 ## Project Structure
 
