@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pjW1X/wtVoQ=",
+  "dgSpecHash": "k3cCfs57N5I=",
   "success": true,
-  "projectFilePath": "D:\\projects\\Task\\Task\\PAL\\PAL.csproj",
+  "projectFilePath": "D:\\projects\\Task\\Task\\PAL\\MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

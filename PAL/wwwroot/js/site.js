@@ -1,4 +1,23 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿const handleAdd = () => {
+    document.getElementById('addForm').style.display = 'block';
+}
+const handleSubmit = (e) => {
 
-// Write your JavaScript code.
+    e.target.submit();
+
+}
+const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal?.addEventListener('shown.bs.modal', () => {
+    myInput.focus()
+})
+
+const handleDelete = (event) => {
+    debugger;
+    event.preventDefault();
+    const confirmDelete = confirm('Are you sure you want to delete this applicant?');
+    if (confirmDelete) {
+        event.target.submit();
+    }
+}

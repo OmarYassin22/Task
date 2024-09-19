@@ -7,11 +7,12 @@ using System.Threading.Tasks;
 
 namespace BL.Interfaces
 {
-    public interface IApplicantRepository
+    public interface IApplicantRepository : IDisposable
     {
-        Task<IEnumerable<Applicant>> GetAll();
+        Task<IEnumerable<Applicant>> GetAllAsync();
         Task<Applicant> GetAsync(int id);
         Task<int> AddAsync(Applicant applicant);
+        Task<Applicant> AddAPIAsync(Applicant applicant);
         Task<int> UpdateAsync(Applicant applicant);
         Task<int> DeleteAsync(int id);
     }

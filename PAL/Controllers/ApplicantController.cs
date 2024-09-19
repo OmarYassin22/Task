@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using BL.Interfaces;
+using BL.ViewModels;
 using DAL.Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using PAL.ViewModels;
 
 namespace PAL.Controllers
 {
@@ -23,7 +23,7 @@ namespace PAL.Controllers
         public async Task<IActionResult> Index()
         {
 
-            var applicants = await _repository.GetAll();
+            var applicants = await _repository.GetAllAsync();
             if (applicants.Count() > 0)
             {
                 var result = _mapper.Map<IEnumerable<ApplicantDTO>>(applicants);
@@ -44,7 +44,7 @@ namespace PAL.Controllers
 
         // POST: ApplicantController/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        //[ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(ApplicantDTO applicant)
         {
             if (ModelState.IsValid)
@@ -87,6 +87,7 @@ namespace PAL.Controllers
             if (ModelState.IsValid)
             {
                 var app = _mapper.Map<Applicant>(applicant);
+                app.Id = id;
                 var count = await _repository.UpdateAsync(app);
                 if (count > 0)
 

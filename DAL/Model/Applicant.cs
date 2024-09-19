@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace DAL.Model
 {
-    public class Applicant : BaseModel
+    public class Applicant
     {
+        public int Id { get; set; }
 
         public string Name { get; set; }
 

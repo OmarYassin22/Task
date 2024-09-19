@@ -2766,6 +2766,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "DAL": "1.0.0"
         },
         "compile": {
@@ -7768,7 +7769,6 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "BL >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.8",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.5"
@@ -7780,9 +7780,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projects\\Task\\Task\\PAL\\PAL.csproj",
-      "projectName": "PAL",
-      "projectPath": "D:\\projects\\Task\\Task\\PAL\\PAL.csproj",
+      "projectUniqueName": "D:\\projects\\Task\\Task\\PAL\\MVC.csproj",
+      "projectName": "MVC",
+      "projectPath": "D:\\projects\\Task\\Task\\PAL\\MVC.csproj",
       "packagesPath": "C:\\Users\\Omar Y. Sleem\\.nuget\\packages\\",
       "outputPath": "D:\\projects\\Task\\Task\\PAL\\obj\\",
       "projectStyle": "PackageReference",
@@ -7823,10 +7823,6 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-            "target": "Package",
-            "version": "[12.0.1, )"
-          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",

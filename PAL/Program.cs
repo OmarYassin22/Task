@@ -2,8 +2,8 @@ using BL.Interfaces;
 using PAL.Services;
 using DAL.Data;
 using Microsoft.EntityFrameworkCore;
-using PAL.Helper;
 using BL.ApplicationRepo;
+using BL.Helper;
 
 namespace PAL
 {
